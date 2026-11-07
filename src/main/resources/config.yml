@@ -1,0 +1,14 @@
+item:
+  material: LODESTONE          # harus block. Dipakai item waystone bawaan plugin
+  custom-model-data: 0         # isi kalau pakai resource pack (0 = mati)
+  name: "<gradient:#00f5ff:#a855f7><bold>Waystone</bold></gradient>"
+  lore:
+    - "<gray>Pasang di tanah, klik kanan untuk aktivasi."
+    - "<dark_gray>Hubungkan kerajaan-kerajaanmu."
+
+gui:
+  # Boleh isi glyph font ItemsAdder langsung di title untuk background custom.
+  title: "<gradient:#00f5ff:#a855f7><bold>Jaringan Waystone</bold></gradient>"
+
+max-name-length: 24
+naming-timeout-seconds: 60

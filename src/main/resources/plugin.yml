@@ -1,0 +1,25 @@
+name: Waystones
+main: com.waystones.WaystonePlugin
+version: 1.0.0
+api-version: '1.21'
+description: Custom waypoint / waystone dengan teleport cinematic
+softdepend: [ItemsAdder]
+
+commands:
+  waystone:
+    description: Perintah admin Waystones
+    usage: /waystone <give|register|remove|list|reload>
+    aliases: [ws]
+    permission: waystone.admin
+
+permissions:
+  waystone.admin:
+    default: op
+  waystone.place:
+    default: op
+  waystone.break:
+    default: op
+  waystone.activate:
+    default: true
+  waystone.use:
+    default: true
